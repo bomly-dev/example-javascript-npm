@@ -2,7 +2,7 @@
   "name": "example-javascript-vulnerable-methods",
   "version": "0.0.1",
   "private": true,
-  "author": "bomly <hello@bomly.com>",
+  "author": "bomly",
   "description": "A node project to demonstrate bomly agent's vulnerable methods for JavaScript",
   "main": "index.js",
   "scripts": {
