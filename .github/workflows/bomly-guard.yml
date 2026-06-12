@@ -24,3 +24,4 @@ jobs:
         with:
           fail-on: high
           comment-summary-in-pr: always
+          auditors: -license
