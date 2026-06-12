@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Guard dependency changes
-        uses: bomly-dev/bomly-review-action@v1
+        uses: bomly-dev/bomly-guard@v1
         with:
-          fail-on-severity: high
+          fail-on: high
           comment-summary-in-pr: always
