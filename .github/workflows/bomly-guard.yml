@@ -19,9 +19,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
       - name: Guard dependency changes
         uses: bomly-dev/bomly-guard@v1
         with:
+          ecosystems: npm
           fail-on: high
           comment-summary-in-pr: always
           auditors: -license
