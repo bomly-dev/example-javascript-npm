@@ -2,8 +2,8 @@
   "name": "example-javascript-vulnerable-methods",
   "version": "0.0.1",
   "private": true,
-  "author": "srcclr <hello@srcclr.com>",
-  "description": "A node project to demonstrate srcclr agent's vulnerable methods for JavaScript",
+  "author": "bomly",
+  "description": "A node project to demonstrate bomly agent's vulnerable methods for JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -20,7 +20,7 @@
     "semver": "5.7.1",
     "to": "0.2.9",
     "url": "0.11.0",
-    "lodash": "4.17.14",
+    "lodash": "4.17.15",
     "marked": "0.3.19"
   },
   "devDependencies": {
