@@ -28,6 +28,7 @@ jobs:
         with:
           log-level: debug
           ecosystems: npm
+          matchers: +scorecard
           fail-on: any
           comment-summary-in-pr: always
           auditors: -license
